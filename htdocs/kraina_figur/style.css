@@ -1,0 +1,16 @@
+th, td {
+    border: #1f4d78 1px solid;
+    padding: 1em 0.5em;
+}
+table {
+    border-collapse: collapse;
+}
+
+.head, thead {
+    background-color: #043b64;
+    color: white;
+}
+
+img {
+    width: 100px;
+}
