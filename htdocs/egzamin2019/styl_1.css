@@ -1,0 +1,45 @@
+:root {
+    --bg-banner: #4682B4;
+    --bg-main: #40E0D0;
+}
+
+
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+
+main {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    background-color: var(--bg-main);
+    height: 500px;
+    width: 40%;
+}
+
+.right {
+    background-color: var(--bg-main);
+    width: 60%;
+    height: 500px;
+}
+
+header, footer {
+    background-color: var(--bg-banner);
+    text-align: center;
+    padding: 20px;
+    font-size: 120%;
+    color: white;
+}
+
+img {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #000080;
+}
