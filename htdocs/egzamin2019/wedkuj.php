@@ -40,3 +40,6 @@ $result = mysqli_query($id, 'SELECT nazwa, wystepowanie FROM ryby WHERE styl_zyc
 </div>
 </body>
 </html>
+<?php
+$result->close();
+$id->close();
