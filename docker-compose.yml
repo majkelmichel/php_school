@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
   xampp:
-    image: tomsik68/xampp:7
+    image: php_school
     volumes:
       - ./htdocs:/www
     ports:
