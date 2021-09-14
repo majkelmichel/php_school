@@ -1,0 +1,49 @@
+:root {
+    --bg-content: rosybrown;
+}
+
+* {
+    font-family: Tahoma;
+}
+
+body {
+    margin: 0 auto;
+}
+.side {
+    background-color: var(--bg-content);
+    color: white;
+    width: 30%;
+    height: 200px;
+}
+
+.main {
+    background-color: var(--bg-content);
+    color: white;
+    width: 40%;
+    height: 200px;
+    text-align: center;
+}
+
+main {
+    background-color: wheat;
+    padding: 50px;
+}
+
+footer {
+    background-color: var(--bg-content);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+a {
+    border: 2px solid darkred;
+    background-color: salmon;
+    color: darkred;
+    padding: 20px;
+    line-height: 200px;
+}
+
+.flex {
+    display: flex;
+}
