@@ -42,3 +42,7 @@ if ($poprawne) {
         echo "$el<br>";
     }
 }
+
+echo "<pre>";
+var_dump($_POST);
+echo "</pre>";

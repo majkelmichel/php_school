@@ -6,8 +6,8 @@ services:
     volumes:
       - ./htdocs:/www
     ports:
-      - 2137:80
-      - 9906:9906
+      - "2137:80"
+      - "9906:9906"
     container_name: xampp
 
 volumes:

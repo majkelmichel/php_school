@@ -20,14 +20,31 @@
 <main>
     <h2>Dodaj nowe zawody wędkarskie</h2>
     <form method="post" action="zgloszenie.php">
-        <label>
+        <label for="lowisko">
             Łowisko:
-            <input type="number">
-        </label>
+            <input type="number" name="lowisko" id="lowisko">
+        </label><br>
+        <label for="date">
+            Data: (rrrr-mm-dd):
+            <input name="date" id="date">
+        </label><br>
+        <label for="sedzia">
+            Sędzia:
+            <input type="text" id="sedzia" name="sedzia">
+        </label><br>
+        <button type="reset">WYCZYŚĆ</button>
+        <button type="submit">DODAJ</button>
     </form>
+    <h2>Łowiska</h2>
+    <ol>
+        <li>Zalew Węgrowski</li>
+        <li>Zbiornik Bukówka</li>
+        <li>Jezioro Barbetowskie</li>
+        <li>Warta-Obrzycko</li>
+    </ol>
 </main>
 <footer>
-
+    <p>Stronę przygotował: Michał Zawadzki</p>
 </footer>
 </body>
 </html>
