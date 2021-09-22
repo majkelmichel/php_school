@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dodawanie danych</title>
+</head>
+<body>
+<h2>Kluby</h2>
+<form action="upload.php" method="post">
+    <label>
+        Kraj:
+        <input name="kluby[kraj]" required>
+    </label><br>
+    <label>
+        Miasto:
+        <input name="kluby[miasto]" required>
+    </label><br>
+    <label>
+        Nazwa
+        <input name="kluby[nazwa]" required>
+    </label><br>
+    <input type="submit">
+</form>
+
+<h2>Piłkarze</h2>
+<form action="upload.php" method="post">
+    <label>
+        Imie:
+        <input name="pilkarze[imie]" required>
+    </label><br>
+    <label>
+        Nazwisko:
+        <input name="pilkarze[nazwisko]" required>
+    </label><br>
+    <label>
+        Rok urodzenia:
+        <input type="number" name="pilkarze[rok]" required>
+    </label><br>
+    <label>
+        Id Klubu:
+        <input type="number" name="pilkarze[id]">
+    </label><br>
+    <input type="submit">
+</form>
+
+<h2>Trener</h2>
+<form action="upload.php" method="post">
+    <label>
+        Imie:
+        <input type="text" name="trener[imie]">
+    </label><br>
+    <label>
+        Nazwisko:
+        <input type="text" name="trener[nazwisko]">
+    </label><br>
+    <label>
+        Rok urodzenia:
+        <input type="number" name="trener[rok]">
+    </label><br>
+    <label>
+        Id klubu:
+        <input type="number" name="trener[id]">
+    </label><br>
+    <input type="submit">
+</form>
+
+<h2>Wypożyczenie</h2>
+<form action="upload.php" method="post">
+    <label>
+        Id klubu:
+        <input type="number" name="wypo[klub]" required>
+    </label><br>
+    <label>
+        Id piłkarza:
+        <input type="number" name="wypo[pilkarz]" required>
+    </label><br>
+    <label>
+        Do kiedy:
+        <input type="date" name="wypo[data]" required>
+    </label><br>
+    <input type="submit">
+</form>
+<a href="index.php">Powrót na stronę główną</a>
+</body>
+</html>
