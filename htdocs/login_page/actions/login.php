@@ -11,10 +11,12 @@ if ($connection->connect_errno != 0) {
 
     $query = "SELECT * FROM users WHERE login='$login' AND password='$password'";
     $result = $connection->query($query);
-    $user = $result->fetch_assoc();
-    print_r("<pre>");
-    print_r($user);
-    print_r("</pre>");
+
+    if ($result->num_rows == 1) {
+        $user = $result->fetch_assoc();
+    } else {
+        header("Location: ../insert.html");
+    }
 
     $result->close();
     $connection->close();

@@ -39,7 +39,6 @@ $zawodnicy = $conn->query($zaw_query);
     echo "$imie $nazwisko";
     ?>
 </h3>
-
 <h4>Zawodnicy:</h4>
 <ul>
 
@@ -60,5 +59,6 @@ $zawodnicy = $conn->query($zaw_query);
     ?>
 </ul>
 <a href="index.php">Powrót na stronę główną</a>
+
 </body>
 </html>

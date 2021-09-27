@@ -9,18 +9,15 @@
 <body>
 
 
-
 <form action="actions/login.php" method="post">
-    <label>Login:<br />
-        <input type="text" name="login" required> <br /><br />
+    <label>Login:<br/>
+        <input type="text" name="login" required> <br/><br/>
     </label>
-    <label>Haslo:<br />
-        <input type="password" name="password" required> <br /><br />
+    <label>Haslo:<br/>
+        <input type="password" name="password" required> <br/><br/>
     </label>
     <input type="submit" value="Zaloguj sie">
 </form>
-
-
 
 </body>
 </html>

@@ -1,0 +1,47 @@
+* {
+    font-family: Helvetica;
+}
+
+:root {
+    --tlo: rgb(140, 69, 85);
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+.lewe {
+    background-color: var(--tlo);
+    color: white;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+
+.prawe {
+    background-color: var(--tlo);
+    color: white;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+}
+
+footer, main {
+    background-color: rgb(240, 234, 226);
+    padding: 120px;
+}
+
+table, td {
+    border: 1px var(--tlo) solid;
+    color: var(--tlo);
+    padding: 10px;
+}
+
+a {
+    color: rgb(240, 234, 226);
+}
