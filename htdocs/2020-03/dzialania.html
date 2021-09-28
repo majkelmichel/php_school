@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Działania matematyczne</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<div class="flex-col">
+    <div class="flex">
+        <div class="banery3">
+            <img src="logo.jpg" alt="matematyka">
+        </div>
+        <div class="drugi-baner">
+            <h1>Pomocnik matematyczny</h1>
+        </div>
+        <div class="banery3">
+            <a href="dzialania.html">
+                <h4>Działania</h4>
+            </a>
+        </div>
+        <div class="banery3">
+            <a href="mnozenie.html">
+                <h4>Tabliczka mnożenia</h4>
+            </a>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="lr left">
+            <h3>Proste działania</h3>
+            <label>
+                Liczba A:
+                <input type="number" id="a">
+            </label><br>
+            <label>
+                Liczba B:
+                <input type="number" id="b">
+            </label><br>
+            <button id="add">+</button>
+            <button id="subs">-</button>
+            <button id="mult">*</button>
+            <button id="div">/</button>
+            <button id="pow">A^B</button>
+            <br>
+            <span id="wyn"></span>
+        </div>
+        <div class="lr right">
+            <ul>
+                <li>dodawanie</li>
+                <li>odejmowanie</li>
+                <li>mnożenie</li>
+                <li>dzielenie</li>
+                <li>potęgowanie</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>Autor: Michał Zawadzki 4tc</p>
+    </footer>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>

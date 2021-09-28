@@ -1,0 +1,58 @@
+* {
+    font-family: Tahoma;
+    color: white;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+.banery3 {
+    background-color: #983713;
+    width: 17%;
+    height: 100px;
+}
+
+.drugi-baner {
+    background-color: #983713;
+    width: 49%;
+    text-align: center;
+    height: 100px;
+}
+
+.lr {
+    background-color: #ff7f50;
+    height: 500px;
+}
+
+.left {
+    width: 80%;
+}
+
+.right {
+    width: 20%;
+}
+
+footer {
+    background-color: #983713;
+    text-align: right;
+}
+
+button {
+    background-color: #d3d3d3;
+    color: #2f2f2f;
+    border: solid 2px #2f2f2f;
+    margin: 5px;
+    padding: 10px 30px;
+}
+
+input {
+    color: orange;
+}
+
+

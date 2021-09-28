@@ -16,6 +16,9 @@ button.addEventListener('click', () => {
         case 2:
             koszt = 3.5 * ilosc;
             break;
+        case 3:
+            koszt = 2 * ilosc;
+            break;
         default:
             koszt = 0;
     }
