@@ -1,0 +1,56 @@
+header {
+    color: white;
+    text-align: center;
+    height: 330px;
+}
+
+article {
+    color: white;
+    text-align: center;
+    width: 170px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+article:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    color: white;
+}
+
+.left {
+    background-color: whitesmoke;
+    width: 30%;
+    height: 150px;
+    text-align: center;
+}
+
+.right {
+    background-color: whitesmoke;
+    width: 70%;
+    height: 150px;
+}
+
+body {
+    font-family: Verdana;
+    background-color: seagreen;
+}
+
+h3 {
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
