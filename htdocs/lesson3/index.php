@@ -13,8 +13,10 @@
     <input type="text" name="login" required> <br /><br />
     <label>Haslo:</label><br />
     <input type="password" name="password" required> <br /><br />
-    <input type="submit" value="Zaloguj sie">
+    <input type="submit" value="Zaloguj sie"><br>
 </form>
+<br>
+<a href="pages/register.php"><button>zarejstruj się</button></a>
 
 </body>
 </html>
