@@ -1,6 +1,6 @@
 <pre>
     <?php
-    var_dump($_POST);
+//    var_dump($_POST);
     session_start();
     require_once "../utils/sql_con.php";
     ?>
@@ -27,15 +27,19 @@ if (isset($_POST["login"], $_POST["name"], $_POST["lastname"], $_POST["password"
         $unique = true;
         foreach ($result as $item) {
             $a = $item["login"];
-            echo "$a - $login";
+//            echo "$a - $login";
             if ($a == $login) {
                 $unique = false;
             }
         }
 
         if ($unique) {
-            $connection->query("INSERT INTO users (login, password, name, lastname, role, age) VALUES ('$login', '$password', '$name', '$lastname', 'user', $age)");
-            echo "zarejestrowano $login";
+            if (strlen($login) > 24 or strlen($login) < 5) {
+                echo "Podany login jest zbyt długi lub zbyt krótki";
+            } else {
+                $connection->query("INSERT INTO users (login, password, name, lastname, role, age) VALUES ('$login', '$password', '$name', '$lastname', 'user', $age)");
+                echo "zarejestrowano $login";
+            }
         } else {
             echo "Login: $login już istnieje.";
         }

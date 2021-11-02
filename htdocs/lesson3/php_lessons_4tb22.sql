@@ -33,7 +33,8 @@ CREATE TABLE `users` (
   `name` varchar(20) NOT NULL,
   `lastname` varchar(20) NOT NULL,
   `role` varchar(10) NOT NULL,
-  `age` int(11) NOT NULL
+  `age` int(11) NOT NULL,
+  PRIMARY KEY (login)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --

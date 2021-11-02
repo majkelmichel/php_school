@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Usługi kosmetyczne</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<div class="flex">
+    <div class="flex-col left">
+        <div class="l1">
+            <h2>W ofercie</h2>
+            <ul>
+                <li>
+                    <a href="twarz.html">Zabiegi na twarz</a>
+                    <ol>
+                        <li>Piling</li>
+                        <li>Maska</li>
+                        <li>Regulacja brwi</li>
+                    </ol>
+                </li>
+                <li>Masaż</li>
+                <li>Diety oczyszczające</li>
+            </ul>
+            <a href="index.html">Do strony głównej</a>
+        </div>
+        <div class="l2">
+            <img src="obraz1.jpg" alt="Kosmetyczka">
+        </div>
+    </div>
+    <div class="flex-col right">
+        <div class="r1">
+            <h1>Salon Kosmetyczny</h1>
+        </div>
+        <div class="r2">
+            <h2>Sprawdź cenę swojej wizyty</h2>
+            <input type="checkbox" id="piling"><label for="piling">Piling</label><br>
+            <input type="checkbox" id="maska"><label for="maska">Maska</label><br>
+            <input type="checkbox" id="masaz"><label for="masaz">Masaż twarzy</label><br>
+            <input type="checkbox" id="regulacja"><label for="regulacja">Regulacja brwi</label><br>
+            <button id="button">Sprawdź cenę</button>
+            <br><br>
+            <span id="wynik"></span>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>
+        Autor: Michał Zawadzki 4tc
+    </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

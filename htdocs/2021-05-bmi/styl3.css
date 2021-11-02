@@ -1,0 +1,63 @@
+.logo {
+    background-color: #ff7f50;
+    width: 25%;
+    height: 100px;
+}
+
+header {
+    background-color: #ff7f50;
+    text-align: center;
+    width: 75%;
+    height: 100px;
+    font-size: 130%;
+}
+
+main {
+    background-color: #ff7f50;
+    padding: 70px;
+}
+
+.left {
+    width: 40%;
+    height: 400px;
+}
+
+.right {
+    width: 60%;
+    height: 400px;
+    text-align: right;
+}
+
+footer {
+    background-color: #ff7f50;
+    padding: 20px;
+}
+
+body {
+    font-family: Georgia;
+    background-color: #FFFAFA;
+}
+
+form {
+    margin: 80px;
+}
+
+table {
+    color: white;
+    text-align: center;
+    width: 80%;
+    border: dotted white 1px;
+}
+
+tr:hover {
+    color: black;
+    background-color: #d3d3d3;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
