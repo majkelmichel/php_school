@@ -54,6 +54,10 @@ class Dog extends Pet
         $this->favoriteToy = $favoriteToy;
     }
 
+    /**
+     * Go for a walk with a dog
+     * Increases its happiness level
+     */
     public function walk(): void
     {
         $this->happinessLevel += 50;
