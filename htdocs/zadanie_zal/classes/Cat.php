@@ -63,4 +63,11 @@ class Cat extends Pet
             echo "This cat does not go outside, so it cannot hunt";
         }
     }
+
+    public function __toString()
+    {
+        return "I'm the king of breed $this->breed.";
+    }
+
+
 }

@@ -56,4 +56,11 @@ class Animal
     public function isHungry(): bool {
         return $this->food < 20;
     }
+
+    public function __toString()
+    {
+        return "I'm an animal of age $this->age";
+    }
+
+
 }

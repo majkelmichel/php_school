@@ -62,4 +62,11 @@ class Dog extends Pet
     {
         $this->happinessLevel += 50;
     }
+
+    public function __toString()
+    {
+        return "Dog of breed: $this->breed. Name is $this->name.";
+    }
+
+
 }

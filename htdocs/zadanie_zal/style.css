@@ -1,0 +1,10 @@
+.image-container {
+    text-align: center;
+}
+body {
+    background: #2a4158;
+    color: #8c9ea3;
+}
+a, a:visited{
+    color: #8c9ea3!important;
+}
